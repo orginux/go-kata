@@ -16,3 +16,6 @@ To test solutions, run the following command:
 ```bash
 make test
 ```
+
+## License
+This repository is licensed under the MIT License, which means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the code, subject to the conditions in the LICENSE file.
