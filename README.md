@@ -11,6 +11,12 @@ Each kata is stored in its own directory, named according to the kata's title. W
 
 Each kata is linked to its corresponding page on CodeWars, where you can find a description of the challenge.
 
+### Add new kata
+```bash
+make kata NAME="<kata name>" LINK=<link to kata>
+```
+
+
 ## Tests
 To test solutions, run the following command:
 ```bash
