@@ -23,6 +23,10 @@ func TestFirstNonRepeating(t *testing.T) {
 			str:  "sTreSS",
 			want: "T",
 		},
+		{
+			str:  "",
+			want: "",
+		},
 	}
 	for _, tt := range firstNonRepeatingTests {
 		got := FirstNonRepeating(tt.str)
